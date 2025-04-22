@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <script type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 40px;
+      }
+      model-viewer {
+        width: 800px;
+        height: 600px;
+        margin: auto;
+        border: 1px solid #ddd;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <h2>3D Model Viewer</h2>
+    <model-viewer 
+      src="91300817.gltf"
+      camera-controls
+      auto-rotate
+      background-color="#FFFFFF">
+    </model-viewer>
+  </body>
+</html>
